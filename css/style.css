@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#woman-icon-nav{
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(200, 202, 201, 1);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255, 255);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.btn{
+    background-color:rgb(110, 117, 114);
+    color: white;
+}
+
+.btn:hover{
+    background-color:rgba(200, 202, 201, 1);
+    color: white;
+}
+
+.btn-outline-success{
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid rgba(110, 117, 114, 0.7);
+}
+
+.section__quem-somos{
+    background-color: rgba(0, 130, 255, 1);
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.section__parceiros{
+    background-color: rgba(27, 19, 134, 0.664);
+    padding-top: 50px;
+    padding-bottom: 50px;   
+    
+}
+
+.section__servicos{
+    background-color: rgba(243, 0, 57, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section__img{
+    width: 350px;
+    height: 350px;
+    margin: 20px 0;
+       
+}
+
+.section__paragrafo{
+    color: rgb(255, 255, 255);
+}
+
+.section__titulo{
+    color: rgb(255, 255, 255);   
+    font-weight: bold;    
+}
+
+.article{
+    background-color: rgba(243, 0, 57, 0.2);
+}
+
+.article:hover{
+    background-color: rgba(243, 0, 57, 0.2);
+    box-shadow: 10px 10px 5px rgba(243, 0, 57, 0.5);
+}
+
+.article__titulo{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.article__img{
+    width: 150px;
+    height: 150px;
+}
+
+.article__paragrafo{
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 992px){
+    .navbar-expand-lg .navbar-collapse, .nav-link, .nav-item, .navbar,.navbar-light, .navbar-nav{
+        display: flex!important;
+        flex-basis: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        display: flex;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .section__img{
+        max-width: 100%;
+        height: auto;
+        width: 250px;
+        height: 250px;
+    }
+}

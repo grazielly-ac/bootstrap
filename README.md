@@ -1,2 +1,3 @@
-# bootstrap
-O objetivo deste repositório é apenas para fim de relembrar o conteúdo
+# BootStrap #
+
+Este diretório é apenas para fins de estudo, relembrando conteúdos. Curso realizado pela *Digital Innovation One* - **Construindo páginas para internet com BootStrap**
