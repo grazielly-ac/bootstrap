@@ -28,6 +28,7 @@ body{
     transition: top 0.3s;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
+    z-index: 1;
 }
 
 .btn{
@@ -96,6 +97,7 @@ body{
 .article:hover{
     background-color: rgba(243, 0, 57, 0.2);
     box-shadow: 10px 10px 5px rgba(243, 0, 57, 0.5);
+    
 }
 
 .article__titulo{

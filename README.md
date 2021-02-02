@@ -1,3 +1,6 @@
 # BootStrap #
 
-Este diretório é apenas para fins de estudo, relembrando conteúdos. Curso realizado pela *Digital Innovation One* - **Construindo páginas para internet com BootStrap**
+Curso - *Digital Innovation One* - **Construindo páginas para internet com BootStrap**
+
+Desenvolvida página utilizando elementos BootStrap, além de HTML e CSS para estruturação.
+
