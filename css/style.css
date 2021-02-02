@@ -84,8 +84,13 @@ body{
     font-weight: bold;    
 }
 
+.row{
+    padding: 40px 0;
+}
+
 .article{
     background-color: rgba(243, 0, 57, 0.2);
+    border-radius: 10px;
 }
 
 .article:hover{
@@ -111,6 +116,23 @@ body{
     padding-right: 50px;
     color: rgb(255, 255, 255);
 }
+
+.footer{
+    background-color: rgba(0, 0, 255, 0.9);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+
+}
+
+.footer__espacoimg{
+    padding: 10px 0;
+}
+
+.footer__img{
+    width: 7%;
+    
+ }
+
 
 @media screen and (max-width: 992px){
     .navbar-expand-lg .navbar-collapse, .nav-link, .nav-item, .navbar,.navbar-light, .navbar-nav{
