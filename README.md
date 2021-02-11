@@ -10,7 +10,7 @@ Realizado projeto pessoal, implementando o conhecimento adquirido com base no cu
 
 ### Links utilizados como base para desenvolvimento da estrutura deste ###
 
-- :link: [BEM] - (http://getbem.com/)
+- :link: [BEM] - (http://getbem.com/) - ainda não implementado
 - :link: [HTML-CSS] - (https://www.w3schools.com/)
 - :link: [BootStrap] - (https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - :link: [VSCode] - (https://code.visualstudio.com/)
