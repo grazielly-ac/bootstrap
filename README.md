@@ -1,8 +1,10 @@
 # BootStrap #
 
-### Curso - `Digital Innovation One` - **Construindo páginas para internet com BootStrap**  :computer: :computer:
+[BootStrapSimples] - (https://bootstrapsimples.netlify.app/)
 
->Página desenvolvida utilizando elementos *BootStrap*, além de *HTML* e *CSS* para estruturação. Com base no curso, realizada a página com diferentes funcionalidades.
+Realizado projeto pessoal, implementando o conhecimento adquirido com base no curso da [Digital Innovation One](https://digitalinnovation.one/)
+
+:computer: :computer:
 
 ## Tecnologias - Link's ##
 
@@ -12,8 +14,10 @@
 - :link: [HTML-CSS] - (https://www.w3schools.com/)
 - :link: [BootStrap] - (https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - :link: [VSCode] - (https://code.visualstudio.com/)
-
+- :link: [Netlify] - (https://netlify.app/)
 
 ## Projeto final para visualização :link:
 
 [BootStrapSimples] - (https://bootstrapsimples.netlify.app/)
+
+O uso do Netlify foi para teste, como alternativa ao Github Pages.
