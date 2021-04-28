@@ -1,0 +1,66 @@
+/*---------------------------------*\
+                GERAL
+\*---------------------------------*/
+/* html{
+    font-size: 62.5%;
+} */
+
+
+html, 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.9375em;
+}
+
+.subtitle{
+    font-weight: 400;
+    color: var(--subtitle);
+}
+
+/*---------------------------------*\
+                MENU
+\*---------------------------------*/
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.menu-link{
+    border-bottom: 2px solid transparent;
+
+    color: var(--menulink-dark) !important;
+    
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-link:hover{
+    border-bottom: 2px solid var(--menulink-light);
+
+    color: var(--menulink-light) !important;
+}
+
+.menu-link__dropdown{
+    color: var(--menulink-dark) !important;
+
+    font-weight: 500;
+}
+
+
+/*---------------------------------*\
+                SERVIÇOS
+\*---------------------------------*/
+
+.servicos{
+    text-decoration: none;
+    
+}

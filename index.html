@@ -3,131 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relembrando BootStrap</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>BootStrap - Simple study base One</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  
 </head>
 <body>
   
-  <header>
+  <header class="menu">
+      <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="img/womanthree.png" id="woman-icon-nav">
-            </a>
-    
-          
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" href="#quemsomos">Quem somos<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#parceiros">Parceiros</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Serviços
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#frontend">Front-End</a>
-                          <a class="dropdown-item" href="#backend">Back-End</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#mobile">Mobile</a>
-                        </div>
-                      </li>
+        
+          <a class="navbar-brand" href="#">
+              <img src="img/womanthree.png" alt="logo" class="img-fluid w-50 h-auto rounded-circle">
+          </a>
+          <button 
+                  class="navbar-toggler" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarNav" 
+                  aria-controls="navbarNav" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon menu-button__color"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active menu-link" aria-current="page" href="#quem">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link menu-link" href="#parceiro">Parceiros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle menu-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Serviços
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item menu-link__dropdown" href="#front">Front-End</a></li>
+                              <li><a class="dropdown-item menu-link__dropdown" href="#back">Back-End</a></li>
+                              <li><a class="dropdown-item menu-link__dropdown" href="#full">FullStack</a></li>
+                              <li><a class="dropdown-item menu-link__dropdown" href="#mob">Mobile</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-              </form>
             </div>
-          </nav>
+        
+        </nav>
+      </div>
   </header>
 
-      <section class="section" id="quemsomos">
-        <div class="container-fluid text-center section__quem-somos">
-          <h3 class="section__titulo">Quem somos</h3>
-          <img src="img/pexels-pixabay-270348.jpg" alt="Quem somos" class="rounded-circle section__img">
-          
-          <p class="section__paragrafo">Um time voltado para o desenvolvimento de aplicativos de forma full ou apenas trabalhando com a parte
-            de front-end ou back-end do seu proejto.
-          </p>
-        </div>
-      </section>
+  <!--MENU-->
 
-      <section class="section" id="parceiros">
-       <div class="container-fluid text-center section__parceiros">
-         <h3 class="section__titulo">Parceiros</h3>
-         <img src="img/pexels-monoar-rahman-109371.jpg" alt="Parceiros" class="rounded-circle section__img">
-         <p class="section__paragrafo">Nossos parceiros são o núcleo do nosso sucesso. Podemos contar com o apoio e ferramentas para
-           o desenvolvimento de nosso trabalho garantindo o sucesso do cliente. 
-        </p> 
-        </div>
-      </section>
+  <!--QUEM SOMOS-->
 
-      <section class="section">       
-        
-          <div class="container-fluid text-center section__servicos">
-         
-              <h3 class="section__titulo">Serviços</h3>
-                
-                <div class="row">
-       
-                    <div class="col-lg-4">   
-                      <article class="article" id="frontend">
-                          <header>
-                            <h4 class="article__titulo">Front-End</h4>                        
-                          </header>
-                            <img src="img/front-end.jpg" alt="Front-End" class="article__img rounded-circle">
-                            <p class="article__paragrafo">
-                              Nós produzimos nossas páginas com HTML, CSS, JS e Bootstrap, respeitando o layout responsivo.
-                            </p> 
-                      </article>
-                    </div>
+    <div class="quem-somos">
+      <div class="container">
+        <div class="row">
 
-                    <div class="col-lg-4">  
-                      <article class="article" id="backend">
-                        <header>
-                          <h4 class="article__titulo">Back-End</h4>
-                        </header>
-                            <img src="img/back-end.jpg" alt="Back-End" class="article__img rounded-circle">
-                            <p class="article__paragrafo">
-                              Nós produzimos nossas páginas com HTML, CSS, JS e Bootstrap, respeitando o layout responsivo.
-                            </p> 
-                      </article>
-                    </div>
-
-                    <div class="col-lg-4">
-                      <article class="article" id="mobile">
-                        <header>
-                          <h4 class="article__titulo">Mobile</h4>
-                        </header>
-                          <img src="img/mobile.jpg" alt="Mobile" class="article__img rounded-circle">
-                          <p class="article__paragrafo">
-                            Nós produzimos nossas páginas com HTML, CSS, JS e Bootstrap, respeitando o layout responsivo.
-                          </p> 
-                      </article>
-                    </div>
-                
-                </div>
-          
+          <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+            <img src="img/quem-somos.svg" alt="Quem somos" class="img-fluid rounded-3">
           </div>
-     
-      </section>
 
-  <footer class="container-fluid footer">
-    
-        <div class="footer__alinhar text-center">  
-          <div class="text-center">
-            <img src="img/womanone.png" alt="Grazielly Cunha" class="rounded-circle mx-auto img-thumbnail footer__img">
-          </div>  
-            <h5>Desenvolvido por Grazielly Cunha</h5>
+          <div class="col-md-6 align-self-center mb-md-0 mb-4 order-md-2 order-1 p-2">
+
+            <h2 id="quem" class="title">Quem somos</h2>
+
+            <h4 class="subtitle">
+              Sed quis enim in neque ultrices aliquet. Morbi maximus, 
+              turpis at posuere aliquet, ante felis pellentesque est, 
+              nec imperdiet dolor velit at diam.
+          </h4>
+
+          <p>
+              Curabitur et gravida sem. Proin euismod a nulla ut posuere. 
+              Pellentesque molestie, nisl id molestie laoreet, massa mauris venenatis nibh, 
+              sed mollis velit sapien ac nisi. Vestibulum orci risus, pellentesque sed leo lobortis, 
+              efficitur consectetur massa. 
+              Sed aliquet ultrices elit a convallis.
+          </p>    
+
+          </div>        
         </div>
-      
-  </footer>    
+      </div>
+    </div>
+  <!--QUEM SOMOS-->
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <!--PARCEIROS-->
+
+    <div class="parceiros">
+      <div class="container">
+        <div class="row">
+
+          
+          <div class="col-md-6 align-self-center mb-md-0 mb-4">
+            
+            <h2 id="parceiro" class="title">Parceiros</h2>
+            
+            <h4 class="subtitle">
+              Sed quis enim in neque ultrices aliquet. Morbi maximus, 
+              turpis at posuere aliquet, ante felis pellentesque est, 
+              nec imperdiet dolor velit at diam.
+            </h4>
+            
+            <p>
+              Curabitur et gravida sem. Proin euismod a nulla ut posuere. 
+              Pellentesque molestie, nisl id molestie laoreet, massa mauris venenatis nibh, 
+              sed mollis velit sapien ac nisi. Vestibulum orci risus, pellentesque sed leo lobortis, 
+              efficitur consectetur massa. 
+              Sed aliquet ultrices elit a convallis.
+            </p>    
+            
+          </div>          
+            
+          
+          <div class="col-md-6 align-self-center text-center">
+            <img src="img/parceiros.svg" alt="Parceiros" class="img-fluid rounded-3">
+          </div>
+             
+
+        </div>
+      </div>
+    </div>
+  <!--PARCEIROS-->
+   
+
+  <!--SERVIÇOS-->
+
+    <div class="servicos">
+      <div class="container">
+        <div class="row">
+
+            <h2 class="title text-center">
+              Nossos serviços
+            </h2>
+          
+            <h4 class="subtitle text-center mb-4">
+              Curabitur et gravida sem. Proin euismod a nulla ut posuere. 
+            </h4>
+        
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <a href="#" class="servicos">
+                    <div class="img-container mb-3">
+                        <img src="img/front-end.svg" alt="Front-End" class="img-fluid rounded-3">
+                    </div>
+                    <h5 id="front" class="text-uppercase">Front-End</h5>
+                    <p class="mb-0">
+                        Proin euismod a nulla ut posuere. Pellentesque molestie, 
+                        nisl id molestie laoreet.
+                    </p>  
+                </a>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <a href="#" class="servicos">
+                  <div class="img-container mb-3">
+                      <img src="img/back-end.svg" alt="Back-End" class="img-fluid rounded-3">
+                  </div>
+                  <h5 id="back" class="text-uppercase">Back-End</h5>
+                  <p class="mb-0">
+                      Proin euismod a nulla ut posuere. Pellentesque molestie, 
+                      nisl id molestie laoreet.
+                  </p>  
+              </a>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <a href="#" class="servicos">
+                  <div class="img-container mb-3">
+                      <img src="img/fullstack.svg" alt="FullStack" class="img-fluid rounded-3">
+                  </div>
+                  <h5 id="full" class="text-uppercase">FullStack</h5>
+                  <p class="mb-0">
+                      Proin euismod a nulla ut posuere. Pellentesque molestie, 
+                      nisl id molestie laoreet.
+                  </p>  
+              </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <a href="#" class="servicos">
+                  <div class="img-container mb-3">
+                      <img src="img/mobile.svg" alt="Mobile" class="img-fluid rounded-3">
+                  </div>
+                  <h5 id="mob" class="text-uppercase">Mobile</h5>
+                  <p class="mb-0">
+                      Proin euismod a nulla ut posuere. Pellentesque molestie, 
+                      nisl id molestie laoreet.
+                  </p>  
+              </a>
+            </div>
+  
+
+        </div>
+      </div>
+    </div>
+
+  <!--SERVIÇOS-->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+   
 </body>
 </html>

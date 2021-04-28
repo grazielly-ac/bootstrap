@@ -1,0 +1,8 @@
+
+.menu{
+    width: 100%;
+
+    background-color: transparent;
+
+    transition: background ease-out 0.2s;
+}
