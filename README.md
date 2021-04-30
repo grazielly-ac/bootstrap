@@ -9,11 +9,11 @@
 
 ### Ferramentas para desenvolvimento desta release ###
 
-- :link: [BEM] - (http://getbem.com/)
+- :link: [BEM] - (http://getbem.com/) - ainda não implementado
 - :link: [HTML-CSS] - (https://www.w3schools.com/)
 - :link: [BootStrap] - (https://getbootstrap.com/docs/5.0/getting-started/download/)
 - :link: [VSCode] - (https://code.visualstudio.com/)
-
+- :link: [Netlify] - (https://netlify.app/)
 
 ## Projeto final para visualização :link:
 
