@@ -1,0 +1,23 @@
+@media (min-width: 768px){
+
+    .block-text__background {
+        
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+
+}
+
+@media (max-width: 575.98px) { 
+
+    .menu{
+        padding: 0 1em;
+    }
+
+    .block-text__background {
+        background-size: 280px 250px;
+    }
+
+
+}

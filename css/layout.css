@@ -1,8 +1,53 @@
 
+
+
+/*---------------------------------*\
+                MENU
+\*---------------------------------*/
 .menu{
     width: 100%;
 
     background-color: transparent;
 
     transition: background ease-out 0.2s;
+}
+
+.menu.menu-active{
+    position: fixed;
+   
+    background-color: #fff;
+
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+
+    z-index: 9999;
+}
+
+
+/*---------------------------------*\
+                GERAL
+\*---------------------------------*/
+
+.block{
+    margin-bottom: 7.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+   
+    border-radius: 1em;
+}
+
+.block-text__background{
+    
+    background-image: url('../img/backtext.jpg');
+    background-position: center;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+}
+
+.line-text__background{
+    transform: rotate(0);
+}
+
+.container{
+    padding: 1em 0em;
 }

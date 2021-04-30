@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
         
           <a class="navbar-brand" href="#">
-              <img src="img/womanthree.png" alt="logo" class="img-fluid w-50 h-auto rounded-circle">
+              <img src="img/GAC.png" alt="logo" class="img-fluid rounded-circle menu-img__size">
           </a>
           <button 
                   class="navbar-toggler" 
@@ -59,17 +59,17 @@
 
   <!--QUEM SOMOS-->
 
-    <div class="quem-somos">
+    <div id="quem" class="quem-somos block pt-5">
       <div class="container">
         <div class="row">
 
           <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-            <img src="img/quem-somos.svg" alt="Quem somos" class="img-fluid rounded-3">
+            <img  src="img/quem-somos.svg" alt="Quem somos" class="img-fluid rounded-3">
           </div>
 
-          <div class="col-md-6 align-self-center mb-md-0 mb-4 order-md-2 order-1 p-2">
+          <div class="col-md-6 align-self-center mb-md-0 mb-4 order-md-2 order-1 px-5 block-text__background">
 
-            <h2 id="quem" class="title">Quem somos</h2>
+            <h2 class="title">Quem somos</h2>
 
             <h4 class="subtitle">
               Sed quis enim in neque ultrices aliquet. Morbi maximus, 
@@ -93,14 +93,14 @@
 
   <!--PARCEIROS-->
 
-    <div class="parceiros">
+    <div id="parceiro" class="parceiros block">
       <div class="container">
         <div class="row">
 
           
-          <div class="col-md-6 align-self-center mb-md-0 mb-4">
+          <div class="col-md-6 align-self-center mb-md-0 mb-4 px-5 block-text__background">
             
-            <h2 id="parceiro" class="title">Parceiros</h2>
+            <a class="title" href="#"><h2 >Parceiros</h2></a>
             
             <h4 class="subtitle">
               Sed quis enim in neque ultrices aliquet. Morbi maximus, 
@@ -132,70 +132,74 @@
 
   <!--SERVIÇOS-->
 
-    <div class="servicos">
+    <div class="servicos block">
       <div class="container">
-        <div class="row">
-
+        
             <h2 class="title text-center">
               Nossos serviços
             </h2>
-          
+            
             <h4 class="subtitle text-center mb-4">
               Curabitur et gravida sem. Proin euismod a nulla ut posuere. 
             </h4>
         
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <a href="#" class="servicos">
-                    <div class="img-container mb-3">
-                        <img src="img/front-end.svg" alt="Front-End" class="img-fluid rounded-3">
-                    </div>
-                    <h5 id="front" class="text-uppercase">Front-End</h5>
-                    <p class="mb-0">
-                        Proin euismod a nulla ut posuere. Pellentesque molestie, 
-                        nisl id molestie laoreet.
-                    </p>  
-                </a>
-            </div>
-        
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <a href="#" class="servicos">
-                  <div class="img-container mb-3">
-                      <img src="img/back-end.svg" alt="Back-End" class="img-fluid rounded-3">
+        <div class="row">
+           
+            <div id="front" class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <a href="#" class="servicos-link">
+                  <div class="servicos-img__size mb-3">
+                      <img src="img/frontend.jpg" alt="Front-End" class="img-fluid rounded-3">
                   </div>
-                  <h5 id="back" class="text-uppercase">Back-End</h5>
+                  <h5 class="text-uppercase">Front-End</h5>
                   <p class="mb-0">
                       Proin euismod a nulla ut posuere. Pellentesque molestie, 
                       nisl id molestie laoreet.
-                  </p>  
+                  </p>    
+
               </a>
             </div>
-      
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <a href="#" class="servicos">
-                  <div class="img-container mb-3">
-                      <img src="img/fullstack.svg" alt="FullStack" class="img-fluid rounded-3">
-                  </div>
-                  <h5 id="full" class="text-uppercase">FullStack</h5>
-                  <p class="mb-0">
-                      Proin euismod a nulla ut posuere. Pellentesque molestie, 
-                      nisl id molestie laoreet.
-                  </p>  
-              </a>
-            </div>
-    
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <a href="#" class="servicos">
-                  <div class="img-container mb-3">
-                      <img src="img/mobile.svg" alt="Mobile" class="img-fluid rounded-3">
-                  </div>
-                  <h5 id="mob" class="text-uppercase">Mobile</h5>
-                  <p class="mb-0">
-                      Proin euismod a nulla ut posuere. Pellentesque molestie, 
-                      nisl id molestie laoreet.
-                  </p>  
-              </a>
-            </div>
-  
+
+          <div id="back" class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <a href="#" class="servicos-link">
+                <div class="servicos-img__size mb-3">
+                    <img src="img/backend.jpg" alt="Back-End" class="img-fluid rounded-3">
+                </div>
+                <h5 class="text-uppercase">Back-End</h5>
+                <p class="mb-0">
+                    Proin euismod a nulla ut posuere. Pellentesque molestie, 
+                    nisl id molestie laoreet.
+                </p>    
+
+            </a>
+          </div>
+
+          <div id="full" class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <a href="#" class="servicos-link">
+                <div class="servicos-img__size mb-3">
+                    <img src="img/fullstack.jpg" alt="FullStack" class="img-fluid rounded-3">
+                </div>
+                <h5 class="text-uppercase">FullStack</h5>
+                <p class="mb-0">
+                    Proin euismod a nulla ut posuere. Pellentesque molestie, 
+                    nisl id molestie laoreet.
+                </p>    
+
+            </a>
+          </div>
+
+          <div id="mob" class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <a href="#" class="servicos-link">
+                <div class="servicos-img__size mb-3">
+                    <img src="img/mobile.jpg" alt="Mobile" class="img-fluid rounded-3">
+                </div>
+                <h5 class="text-uppercase">Mobile</h5>
+                <p class="mb-0">
+                    Proin euismod a nulla ut posuere. Pellentesque molestie, 
+                    nisl id molestie laoreet.
+                </p>    
+
+            </a>
+          </div>
 
         </div>
       </div>
@@ -203,8 +207,31 @@
 
   <!--SERVIÇOS-->
 
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+          
+          <div class="col-lg-6 col-md-12 text-center order-md-1 my-3">
+            <img class="footer-img img-fluid" alt="Grazielly Cunha" src="img/grazirelease.png"> 
+          </div>
+
+          <div class="col-lg-6 col-md-12 align-self-center text-center order-md-2 footer-github">
+            <h5 class="footer-text mb-3">&copy;Desenvolvido por Grazielly Cunha</h5>
+            <a class="footer-text mb-3" href="https://github.com/grazielly-ac/bootstrap">
+              <img src="img/github.svg" alt="Github" class="img-fluid footer-img__github">
+            </a>
+          </div>
+          
+         
+      
+      </div>
+    </div>
+  </div>
+
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-   
+<script src="js/jquery-3.6.0.min.js"></script>  
+<script src="js/main.js"></script>
 </body>
 </html>

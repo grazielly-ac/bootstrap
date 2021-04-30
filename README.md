@@ -1,19 +1,20 @@
-# BootStrap #
+# BootStrap 5.0#
 
-### Curso - `Digital Innovation One` - **Construindo páginas para internet com BootStrap**  :computer: :computer:
+### Aplicando técnicas no desenvolvimento - release 1.0
 
->Página desenvolvida utilizando elementos *BootStrap*, além de *HTML* e *CSS* para estruturação. Com base no curso, realizada a página com diferentes funcionalidades.
+
+>Página desenvolvida utilizando elementos *BootStrap*, *HTML* e *CSS*. Essa página faz parte do portifólio FRONT-END.
 
 ## Tecnologias - Link's ##
 
-### Links utilizados como base para desenvolvimento da estrutura deste ###
+### Ferramentas para desenvolvimento desta release ###
 
 - :link: [BEM] - (http://getbem.com/)
 - :link: [HTML-CSS] - (https://www.w3schools.com/)
-- :link: [BootStrap] - (https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- :link: [BootStrap] - (https://getbootstrap.com/docs/5.0/getting-started/download/)
 - :link: [VSCode] - (https://code.visualstudio.com/)
 
 
 ## Projeto final para visualização :link:
 
-[BootStrapSimples] - (https://bootstrapsimples.netlify.app/)
+- :link: [Projeto BootStrap 1 - portfólio] - (https://bootstrapsimples.netlify.app/)

@@ -16,9 +16,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .title{
+    margin-bottom: 0.9375em;
+
+    color: #000;
+
+    text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 0.9375em;
+}
+
+.title:hover{
+    color:#000;
 }
 
 .subtitle{
@@ -30,6 +38,17 @@ h1, h2, h3, h4, h5, h6{
                 MENU
 \*---------------------------------*/
 
+.menu-img__size{
+    width: 6.5em;
+    height: 6.5em;
+}
+
+.menu-img__sizescroll{
+    width: 5em;
+    height: 5em;
+}
+
+
 .navbar-toggler:focus{
     box-shadow: none;
 }
@@ -38,7 +57,8 @@ h1, h2, h3, h4, h5, h6{
     border-bottom: 2px solid transparent;
 
     color: var(--menulink-dark) !important;
-    
+
+    font-size: 1.25em;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -56,11 +76,82 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+
 /*---------------------------------*\
                 SERVIÇOS
 \*---------------------------------*/
 
-.servicos{
-    text-decoration: none;
+.servicos-link{
+
+    display: block;
+    border-radius: 5px;
+    padding: 20px;
+
+    background: #fff;
+    color:#000;
     
+    text-decoration: none;
+    text-align: center;
+    
+    transition: all ease-out 0.2s;
+}
+
+.servicos-link:hover{
+    
+    background: var(--light);
+    
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);    
+    transform: scale(1.05);
+
+    color: #000;
+}
+
+.servicos-img__size{
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    border-radius: 5px;
+    height: 200px;
+
+    
+}
+
+.servicos-img__size > img{
+   
+    max-height: 190px;
+}
+
+/*---------------------------------*\
+                FOOTER
+\*---------------------------------*/
+
+.footer{
+    border-top: 1px solid #969292;
+
+}
+
+.footer-img {
+    width: 5.5em;
+    height: 5.5em;
+    border-radius: 20%;
+}
+
+.footer-text{
+    text-decoration: none;
+    color: #595959;
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+.footer-img__github{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.footer-github:hover{
+    transform: rotate(1.05);
+    box-shadow: 0px 0px 10px 0px var(--hover-github);
+    border-radius: 10px;
 }
